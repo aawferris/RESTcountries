@@ -1,0 +1,6 @@
+import axios from "axios";
+
+const requests = {
+  fetchAllCountries: `${baseURL}/all`,
+  fetchOneCountry: `/${name}`,
+};
